@@ -2,4 +2,4 @@
 - 👀 eu estou interressado em realizar meu sonho
 - 🌱 estou aprendendo programação
 - 💞️ eu procuro colaborar com ideias
-- 📫 como chegar em min manda mensagem 
+- 📫 como chegar em min manda mensagem no meu email joao.marques.prado@escola.pr.gov.br
