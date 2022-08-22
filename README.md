@@ -1,0 +1,5 @@
+- 👋 opa eu sou @joaomarceloa
+- 👀 eu estou interressado em realizar meu sonho
+- 🌱 estou aprendendo programação
+- 💞️ eu procuro colaborar com ideias
+- 📫 como chegar em min manda mensagem 
