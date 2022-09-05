@@ -1,0 +1,16 @@
+.borda1{
+    border: solid 2px whitesmoke;
+    padding-left: 10px;
+    
+}
+.borda2{
+    border: solid 2px whitesmoke;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+body{
+    color: rgb(247, 242, 242);
+    background-color: black;
+    font: size 45px;
+    background-image: url(imagens/plain-black-background.jpg);
+}
