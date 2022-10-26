@@ -32,3 +32,6 @@ header{
     justify-content: space-between;
     background-color: rgb(56, 54, 54);
 }
+form{
+    font-size: 20px;
+}
