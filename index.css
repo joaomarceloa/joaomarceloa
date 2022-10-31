@@ -14,3 +14,24 @@ body{
     font: size 45px;
     background-image: url(imagens/plain-black-background.jpg);
 }
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: #000000
+}
+header{
+    height: 10yh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 54, 54);
+}
+form{
+    font-size: 20px;
+}
