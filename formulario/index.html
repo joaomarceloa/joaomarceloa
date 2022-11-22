@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aniversario</title>
+    <style>
+
+        h1{
+    color: darkred;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+}
+
+input:invalid+span:after {
+    content: '✖';
+    padding-left: 5px;
+}
+
+input:valid+span:after {
+    content: '✓';
+    padding-left: 5px;
+}
+    </style>
+</head>
+<body>
+    <h1>Origem do aniversario</h1>
+<img src="imagem/festa-de-aniversario-simples.jpg" alt="aniversario" width="1200" height="300">
+ <p>Como todos os dias se celebram milhares de aniversários no mundo, é interessante saber qual a origem deste costume.
+
+        Os aniversários têm origem pagã relacionada com a magia (as velas simbolizam a ligação com espiritual e protecção) e com a religião, embora no caso do cristianismo este costume estivesse abolido até ao século IV, altura em que a Igreja começou a comemorar o nascimento de Jesus Cristo.
+        
+        Na antiga Grécia na Grécia, onde todos os anos se homenageava a Deusa da caça, Artemis, com um bolo e várias velas em cima de bolos de mel redondos para simbolizar a lua que, segundo a mitologia grega, era a forma da Deusa Artemis se expressar.
+        
+        Nessas sociedades primordiais as comemorações de aniversário eram reservadas às classes sociais de elite e aos deuses. Assim, tanto os egípcios como os gregos restringiam essas festividades apenas aos faraós e deuses. Já os romanos permitiam essas celebrações apenas ao imperador, à sua família e aos senadores.
+        
+        Com o tempo esse hábito acabou por chegar à Alemanha, na Idade Média, onde os camponeses festejam os aniversários dos seus filhos com um bolo, as velas em número idêntico à idade da criança e mais uma vela que simbolizava a luz da Vida.
+        
+        Para se perceber a importância dos aniversários natalícios, deve-se compreender que na Idade Média as pessoas tinham uma crença profunda na existência de espíritos bons e de espíritos maus. Todos receavam que esses espíritos maus causassem mal ao aniversariante no seu dia de nascimento, pelo que ele ficava rodeado pela família e pelos amigos, cujos votos de felicidade e sua própria presença, o protegeriam contra os perigos desconhecidos que esse dia supostamente representava. A oferenda de presentes resultava numa protecção mais forte e quando acompanhada por uma refeição em conjunto ajudava a invocar a presença dos espíritos bons.
+        
+        Pode-se portanto concluir que nesses tempos a festa de aniversário natalício destinava-se essencialmente a proteger a pessoa do mal e a tentar garantir que tivesse um bom ano à sua frente.
+        
+        Atualmente as festas de aniversário servem para celebrar a conquista de mais um ano de vida e já não se invocam espíritos bons ou se tenta afastar espíritos maus. Trata-se essencialmente de um dia que se quer feliz e alegre, passado na companhia das pessoas que nos são mais queridas e importantes.</p>
+        <form>
+            <div>
+              <label for="diaa">Informe a data do seu aniversário:</label>
+              <input type="date" id="bdia" name="diaa" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+              <span class="validity"></span>
+            </div>
+            <div>
+              <input type="submit">
+            </div>
+          </form>
+</body>
+</html>
