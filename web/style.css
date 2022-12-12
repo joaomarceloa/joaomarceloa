@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+header{
+    background-color: cornsilk;
+    padding: 15px;
+    box-shadow: 0 0 3px rgb(0, 0, 250);
+}
+header li{
+    display: inline;
+    padding-left: 45px;
+    font-size: 24px;
+}
+header li a{
+    color: blue;
+    text-decoration: none;
+    padding: 13px;
+}
+header li img{
+    width: 160px;
+    float: left;
+    margin-top: -40px;
+}
+h1{
+    color: navy;
+    font-size: 80px;
+}
+h2.hidden{
+    visibility: hidden;
+}
+h3{
+    color: rgb(233, 88, 4);
+    font-size: 80px;
+}
+h4{
+    color: rgb(221, 199, 3);
+    font-size: 80px;
+}
+p{
+    color: chartreuse;
+    font-size: 30px;
+
+}
+label{
+    color: rgb(4, 49, 248);
+    font-size: 40px;
+
+}
